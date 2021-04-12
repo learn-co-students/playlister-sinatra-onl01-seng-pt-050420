@@ -11,6 +11,7 @@ gem 'shotgun'
 gem 'pry'
 gem 'tux'
 
+
 group :test do
   gem 'launchy'
   gem 'rspec'
@@ -18,3 +19,5 @@ group :test do
   gem 'rack-test'
   gem 'database_cleaner'
 end
+
+gem "sinatra-flash", "~> 0.3.0"
